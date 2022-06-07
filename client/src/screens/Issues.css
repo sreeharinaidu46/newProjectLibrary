@@ -1,0 +1,65 @@
+div.left {
+    float: left;
+    width: 49%;
+    background: #ffffff;
+    margin-top: 15px;
+}
+
+div.right {
+    float: right;
+    width: 49%;
+    background: #ffffff;
+    margin-top: 15px;
+}
+
+.left>button {
+    border: none;
+    border: 0.5px solid rgb(220, 212, 212);
+    padding: 2.2px 5px;
+}
+
+.right>button {
+    border: none;
+    border: 0.5px solid rgb(220, 212, 212);
+    padding: 2.2px 5px;
+}
+
+.book_label {
+    background-color: #e2e2e2;
+    padding: 2.3px 6px;
+    border: 0.5px solid rgb(220, 212, 212);
+    border-radius: 2px;
+}
+
+.book_details {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 10px;
+}
+
+.issue_buttons>button {
+    border: none;
+    color: #eee7e4;
+    margin-left: 2px;
+    padding: 3px 15px;
+    border-radius: 4px;
+}
+
+.item_detailss {
+    margin-left: 5%;
+}
+
+.wrapper p {
+    margin: 0px;
+}
+
+.down_container {
+    margin-top: 37%;
+}
+
+.disabledClass:hover {
+    cursor: not-allowed
+}
